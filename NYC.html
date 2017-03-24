@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<title>Cessy's Travel Gallery</title>
+<meta charset="UTF-8">
+<body background="bbbg.jpg"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-sidenav a {padding:20px}
+body {font-family: "Lato", sans-serif}
+<background="bbg.jpg" 
+div {
+    background: url(img_flwr.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+</style>
+<body>
+
+<!-- Sidenav (hidden by default) -->
+<nav class="w3-sidenav w3-card-2 w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-closenav">Close Menu</a>
+   <a href="#ny" onclick="w3_close()">New York</a>
+    <a href="#j" onclick="w3_close()">Japan Trip</a>
+  <a href="#chica" onclick="w3_close()">Chicago Trip</a>
+  <a href="#pala" onclick="w3_close()">Palawan Trip</a>
+   <a href="#cali" onclick="w3_close()"> San Francisco,CA Trip</a>
+   <a href="#u" onclick="w3_close()">Utah Trip</a>
+  
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge w3-padding-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-left w3-opennav w3-hover-text-grey" onclick="w3_open()">☰</div>
+    <div class="w3-right"></div>
+    <div class="w3-center">My travel gallery</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+ <hr id="about">
+
+  <!-- About Section -->
+  <audio autoplay>
+  <source src="Home.mp3" type="audio/mpeg">
+</audio>
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Travel is life</h3><br>
+   <video width="100%" height="20%" style="display:block;margin:auto" muted autoplay >
+  <source src="plane.mp4" type="video/mp4">
+</video>
+    <div class="w3-padding-32">
+      <h4><b>I live by the saying...</b></h4>
+      <h6><i>“The gladdest moment in human life, me thinks, is a departure into unknown lands.” – Sir Richard Burton</i></h6>
+      <p></p>
+    </div>
+  </div>
+  <hr>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-30 w3-center" id="ny">
+    <div class="w3-quarter">
+      <img src="nycf/nyc1.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="nycf/nyc2.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="nycf/nyc5.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="nycf/nyc4.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="j">
+    <div class="w3-quarter">
+      <img src="japan/j1.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="japan/j2.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="japan/j3.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="japan/j4.jpg" alt="Croissant" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+
+   <!-- Third Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="chica">
+    <div class="w3-quarter">
+      <img src="chica/chi1.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="chica/chi2.jpg"alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="chica/chi3.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="chica/chi4.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+    <!-- Fourth Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="pala">
+    <div class="w3-quarter">
+      <img src="palawan/pal1.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="palawan/pal2.jpg"alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="palawan/pal3.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="palawan/pal4.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+   <!-- Fifth Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="cali">
+    <div class="w3-quarter">
+      <img src="cali/cal1.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="cali/cal2.jpg"alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="cali/cal3.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="cali/cal4.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+   <!-- Sixth Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="u">
+    <div class="w3-quarter">
+      <img src="utah/u1.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="utah/u2.jpg"alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="utah/u3.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="utah/u4.jpg" alt="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>lurv</p>
+      <p> <a href="" target="_blank"></a></p>
+    </div>
+  
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicago</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Japan</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
